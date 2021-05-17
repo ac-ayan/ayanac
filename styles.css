@@ -24,9 +24,10 @@ html {
     --color-text: #333333; */
 }
 html[data-theme='dark'] {
-    --bg: #0a0714;
-    --leftblob: #7b7c17;
-    --rightblob: #334758;
+    --bg: #010615;
+    --leftblob: #071749;
+    /* #7b7c17; */
+    --rightblob: #071749;
     /* --bg-panel: #434343;
     --color-headings: #3694FF;
     --color-text: #B5B5B5; */
@@ -78,6 +79,7 @@ body::before {
 
     background: var(--leftblob);
     /* linear-gradient(135deg,#8ec72d 10%, #00b09b 100%);  */
+    
 }
 body::after {
     clip-path: circle(20% at right 80%);
