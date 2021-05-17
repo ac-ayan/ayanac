@@ -25,9 +25,8 @@ html {
 }
 html[data-theme='dark'] {
     --bg: #010615;
-    --leftblob: #071749;
-    /* #7b7c17; */
-    --rightblob: #071749;
+    --leftblob: #2668b3;
+    --rightblob: #1f5fa8;
     /* --bg-panel: #434343;
     --color-headings: #3694FF;
     --color-text: #B5B5B5; */
